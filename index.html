@@ -10,13 +10,18 @@
     </head>
     <body>
         <nav id="desktop-nav">
+            <img 
+                src="./assets/education3.jpeg" 
+                alt="education icon"
+                class="icon"
+            >
             <div class="logo">Jerick Ilano</div>
             <div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,7 +37,7 @@
                     <li><a href="#about" onclick="toggleMenu()">About</a></li> <!-- onclick: click on links and it makes the menu close -->
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </div>
             </div>
         </nav>
@@ -101,14 +106,17 @@
                             class="icon"
                             >
                             <h3>Education</h3>
-                            <p>Minor <br />Informatics Concentrating in Frontend Development</p>
+                            <p>Minor <br />Informatics, Concentrating in Frontend Development</p>
                         </div>
                     </div>
                     <div class="text-container">
                         <p>
-                            Third-Year Student at the University of Washington College of Engineering, pursuing a major in Electrical and Computer Engineering, with a minor in Informatics.
+                            <li><b>School:</b> Junior at the University of Washington</li>
+                            <li><b>Degree:</b> B.S. Electrical and Computer Engineering</li>
+                            <li><b>Minor:</b> Informatics</li>
+                            <li><b>Location:</b> Seattle, Washington</li>
+                            <li><b>Graduation:</b> June 2025</li>
                         </p>
-                        <p>Expected to graduate in June 2025.</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +128,7 @@
         </section>
         <section id="experience">
             <p class="section__text__p1">Explore My</p>
-            <h1 class="title">Experience</h1>
+            <h1 class="title">Skillset</h1>
             <div class="experience-details-container">
                 <div class="about-containers">
                     <div class="details-container">
@@ -259,12 +267,13 @@
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-1.png"
+                        src="./assets/UFit-image"
                         alt="project 1" 
                         class="project-img"
                         >
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">UFit</h2>
+                    <h5>(HTML/CSS, JavaScript, React)</h5>
                     <div class="btn-container">
                         <button 
                         class="btn btn-color-2 project-btn" 
@@ -277,29 +286,32 @@
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-2.png"
+                        src="./assets/Globe-image"
                         alt="project 2" 
                         class="project-img"
                         >
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">The Impact of COVID-19</h2>
+                    <h5>(Markdown, R)</h5>
                     <div class="btn-container">
                         <button 
                         class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://jerickilano.shinyapps.io/final-project-aishab03/'"
                         >
-                        Github
+                        Website
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-3.png"
+                        src="./assets/project3-image"
                         alt="project 3" 
                         class="project-img"
                         >
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <h2 class="experience-sub-title project-title">Appointment App</h2>
+                    <h5>(Java, SQL, JDBC API)</h5>
                     <div class="btn-container">
                         <button 
                         class="btn btn-color-2 project-btn" 
@@ -313,7 +325,146 @@
             <img 
             src="./assets/arrow.png" 
             alt="arrow icon" class="icon arrow" 
-            onclick="location.href='./#projects'"
+            onclick="location.href='./#contact'"
+            >
+        </section>
+        <section id="Courses">
+            <p class="section__text__p1">Take a Look at my</p>
+            <h1 class="title">Related Courses</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://courses.cs.washington.edu/courses/cse373/'"
+                        >
+                        Website
+                        </button>
+                    </div>
+                    <div class="article-container">
+                        <img 
+                        src="./assets/uw-cs-image.png"
+                        alt="project 1" 
+                        class="project-img"
+                        >
+                    </div>
+                    <h2 class="experience-sub-title project-title">CSE 373</h2>
+                    <h3>Data Structures and Algorithms</h3>
+                    <p>Fundamental algorithms and data structures for implementation. Techniques for solving problems by programming. Linked lists, stacks, queues, directed graphs. Trees: representations, traversals. Searching (hashing, binary search trees, multiway trees). Garbage collection, memory management. Internal and external sorting.</p>
+                    <h4>(Java)</h4>
+                </div>
+                <div class="details-container color-container">
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://www.washington.edu/students/crscat/info.html'"
+                        >
+                        Website
+                        </button>
+                    </div>
+                    <div class="article-container">
+                        <img 
+                        src="./assets/uw-info-image.png"
+                        alt="project 3" 
+                        class="project-img"
+                        >
+                    </div>
+                    <h2 class="experience-sub-title project-title">INFO 340</h2>
+                    <h3>Web and Client-Side Development</h3>
+                    <p>Introduction to client-side development on the internet, including markup, programming languages, protocols, libraries, and frameworks for creating and maintaining usable and accessible, interactive applications.</p>
+                    <h4>(HTML/CSS, JavaScript, React)</h4>
+                </div>
+                <div class="details-container color-container">
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://courses.cs.washington.edu/courses/cse414/'"
+                        >
+                        Website
+                        </button>
+                    </div>
+                    <div class="article-container">
+                        <img 
+                        src="./assets/uw-cs-image.png"
+                        alt="project 2" 
+                        class="project-img"
+                        >
+                    </div>
+                    <h2 class="experience-sub-title project-title">CSE 414</h2>
+                    <h3>Introduction to Database Systems</h3>
+                    <p>Introduces database management systems and writing applications that use such systems; data models, query languages, transactions, database tuning, data warehousing, and parallelism.</p>
+                    <h4>(SQL, MS Azure)</h4>
+                </div>
+                <div class="details-container color-container">
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://courses.cs.washington.edu/courses/cse143/'"
+                        >
+                        Website
+                        </button>
+                    </div>
+                    <div class="article-container">
+                        <img 
+                        src="./assets/uw-cs-image.png"
+                        alt="project 2" 
+                        class="project-img"
+                        >
+                    </div>
+                    <h2 class="experience-sub-title project-title">CSE 143</h2>
+                    <h3>Computer Programming II</h3>
+                    <p>Continuation of CSE 142. Concepts of data abstraction and encapsulation including stacks, queues, linked lists, binary trees, recursion, instruction to complexity and use of predefined collection classes in Java.</p>
+                    <h4>(Java)</h4>
+                </div>
+                <div class="details-container color-container">
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://www.washington.edu/students/crscat/info.html#info330'"
+                        >
+                        Website
+                        </button>
+                    </div>
+                    <div class="article-container">
+                        <img 
+                        src="./assets/uw-info-image.png"
+                        alt="project 3" 
+                        class="project-img"
+                        >
+                    </div>
+                    <h2 class="experience-sub-title project-title">INFO 330</h2>
+                    <h3>Databases and Data Modeling</h3>
+                    <p>Introduction to database systems, focused on relational models, languages, and systems and the application of conceptual, logical, and physical database design. Key topics include the relational model, SQL, entity-relationship modeling, implementation of database applications, and non-relational databases.</p>
+                    <h4>(SQL)</h4>
+                </div>
+                <div class="details-container color-container">
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://courses.cs.washington.edu/courses/cse374/'"
+                        >
+                        Website
+                        </button>
+                    </div>
+                    <div class="article-container">
+                        <img 
+                        src="./assets/uw-cs-image.png"
+                        alt="project 2" 
+                        class="project-img"
+                        >
+                    </div>
+                    <h2 class="experience-sub-title project-title">CSE 374</h2>
+                    <h3>Intermediate Programming Concepts and Tools</h3>
+                    <p>Covers key software development concepts and tools not in introductory courses. Concepts of lower-level programming (C/C++) and explicit memory management; techniques and tools for individual and group software development; design, implementation, and testing strategies.</p>
+                    <h4>(Bash Scripting, Linux, C/C++)</h4>
+                </div>
+            </div>
+            </div>
+            <img 
+            src="./assets/arrow.png" 
+            alt="arrow icon" class="icon arrow" 
+            onclick="location.href='./#contact'"
             >
         </section>
         <section id="contact">
@@ -340,6 +491,16 @@
                         <a href="https://www.linkedin.com/in/jerickilano/">LinkedIn</a>
                     </p>
                 </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/phone-icon.png" 
+                    alt="LinkedIn icon" 
+                    class="icon contact-icon"
+                    >
+                    <p>
+                        +1 425 345 6610
+                    </p>
+                </div>
             </div>
         </section>
         <footer>
@@ -348,7 +509,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <p>Copyright &#169; 2023 Jerick Ilano. All Rights Reserved.</p>
@@ -356,4 +517,3 @@
         <script src="script.js"></script>  <!-- connect all other components -->
     </body>
 </html>
-<!-- 52 mins -->
